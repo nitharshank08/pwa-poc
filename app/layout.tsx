@@ -1,11 +1,14 @@
 import "./globals.css";
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import PwaRegister from "../components/PwaRegister";
 
 export const metadata: Metadata = {
   title: "My Next PWA",
   description: "PWA Login → Home demo",
-  manifest: "/manifest.webmanifest",
+  manifest: "/manifest.webmanifest"
+};
+
+export const viewport: Viewport = {
   themeColor: "#0b0f19"
 };
 
